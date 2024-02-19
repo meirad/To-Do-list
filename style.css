@@ -1,0 +1,65 @@
+body{   
+  background: rgb(99,147,255);
+  background: linear-gradient(90deg, rgba(99,147,255,1) 0%, rgba(151,68,245,0.9304315476190477) 52%);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+  }
+.card{
+  background-color: #2222c342;
+
+}
+  .list-group-item{
+    background-color: aliceblue;
+  }
+
+  h1{
+    color: #fff;
+  }
+
+  .close{
+    padding: 15px;
+    border: none;
+    font-size: 1rem;
+    background-color: aqua;
+  }
+  .form-label {
+    color: white;
+}
+
+  li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #ffffff00;
+  }
+
+input[type=checkbox]{
+    margin-left:1px ;
+}
+
+
+.me-auto{
+    margin-left: 25px;
+}
+
+#deleteAllButton{
+  color: white;
+}
+
+#ex1-tab-1 {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+
+#ex1-tab-1:hover {
+ border: 1px solid #ffffff;
+}
+
+#taskCount{
+  color: white;
+}
